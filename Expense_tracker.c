@@ -1,4 +1,4 @@
-// Enhanced Expense Tracker in C
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +10,7 @@
 #define BUDGET_LIMIT 1000.0
 
 typedef struct {
-    char date[11];      // YYYY-MM-DD
+    char date[11];     
     char category[50];
     float amount;
 } Expense;
@@ -267,4 +267,5 @@ void exportToCSV() {
     }
     fclose(file);
     printf("Exported to %s.\n", EXPORT_FILE);
+
 }
