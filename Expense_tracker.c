@@ -267,6 +267,6 @@ void exportToCSV() {
     }
     fclose(file);
     printf("Exported to %s.\n", EXPORT_FILE);
-
 }
+
 
